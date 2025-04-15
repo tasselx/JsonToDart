@@ -44,13 +44,13 @@ function App() {
         throw new Error('Invalid JSON structure. Expected an object or array of objects.');
       }
       
-      // Add fields - make all fields nullable with JsonKey annotation
+      // Add fields - make all fields nullable with JsonKey annotation, remove final modifier
       Object.entries(objectToProcess).forEach(([key, value]) => {
         const dartType = getDartType(value);
         // Add ? to make the type nullable if it doesn't already end with ?
         const nullableType = dartType.endsWith('?') ? dartType : `${dartType}?`;
         output += '  @JsonKey(name: \'' + key + '\')\n';
-        output += '  final ' + nullableType + ' ' + key + ';\n\n';
+        output += '  ' + nullableType + ' ' + key + ';\n\n';
       });
       
       // Add constructor with required keyword for non-nullable fields

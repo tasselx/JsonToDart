@@ -86,7 +86,7 @@ Error generating stack: `+o.message+`
 `),y+=`@JsonSerializable()
 `;const O=p.charAt(0).toUpperCase()+p.slice(1);y+="class "+O+` {
 `;const c=Array.isArray(w)?w[0]:w;if(!c||typeof c!="object")throw new Error("Invalid JSON structure. Expected an object or array of objects.");return Object.entries(c).forEach(([a,d])=>{const v=u(d),S=v.endsWith("?")?v:`${v}?`;y+="  @JsonKey(name: '"+a+`')
-`,y+="  final "+S+" "+a+`;
+`,y+="  "+S+" "+a+`;
 
 `}),y+="  "+O+`({
 `,Object.entries(c).forEach(([a,d])=>{const v=u(d),S=d===null||v.endsWith("?");y+="    "+(S?"":"required ")+"this."+a+`,
