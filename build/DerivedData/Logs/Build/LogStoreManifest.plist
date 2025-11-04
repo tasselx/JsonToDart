@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>DED9E2C5-D287-4ACD-9375-86CD9FB697F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DED9E2C5-D287-4ACD-9375-86CD9FB697F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JsonToDart project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JsonToDart</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project JsonToDart with scheme JsonToDart</string>
+			<key>timeStartedRecording</key>
+			<real>783938497.57902801</real>
+			<key>timeStoppedRecording</key>
+			<real>783938501.66496801</real>
+			<key>title</key>
+			<string>Archiving project JsonToDart with scheme JsonToDart</string>
+			<key>uniqueIdentifier</key>
+			<string>DED9E2C5-D287-4ACD-9375-86CD9FB697F0</string>
+		</dict>
+		<key>FD751B65-4ECC-492D-862F-3080466B4B2D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD751B65-4ECC-492D-862F-3080466B4B2D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JsonToDart project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JsonToDart</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project JsonToDart with scheme JsonToDart and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>783938484.86898804</real>
+			<key>timeStoppedRecording</key>
+			<real>783938495.97742105</real>
+			<key>title</key>
+			<string>Building project JsonToDart with scheme JsonToDart and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>FD751B65-4ECC-492D-862F-3080466B4B2D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
